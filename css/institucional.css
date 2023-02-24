@@ -55,6 +55,7 @@
 
 /*Responsive*/
 
+/*Tablet*/
 @media screen and (min-width: 768px){
     .institucional__contacto-email{
         display: inline-block;
@@ -64,8 +65,8 @@
     }
 }
 
-
-/* @media screen and (min-width: 1024px) {
+/*Escritorio*/
+@media screen and (min-width: 1024px) {
     .institucional__contenido {
         width: 100%;
         display: flex;
@@ -75,11 +76,10 @@
 
     .institucional__video {
         align-self: flex-end;
-
         width: 375px;
     }
 
     .institucional__contacto-email {
         display: block;
     }
-} */
+}
